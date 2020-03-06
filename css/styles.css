@@ -1,0 +1,210 @@
+
+body{
+  font-family: 'Monserrat',;
+}
+
+em{
+  color: #fff;
+  font-family: 'Monserrat',;
+}
+
+h2{
+  font-family: 'Monserrat',;
+  color: #fff;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Monserrat',;
+  font-weight: bold;
+}
+
+p{
+  color: #d1cebd;
+  font-family: 'Monserrat',;
+  font-size: small;
+}
+
+#title{
+  background-color: #ffaaa5;
+
+
+}
+
+
+
+#features{
+  text-align: center;
+  background-color: white;
+  padding: 40px 0;
+  position: relative;
+  z-index: 1;
+
+
+}
+
+/*********CLASS SELECTORS*************/
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+.marDiv{
+  margin: 30px 0px;
+}
+
+.paraColor{
+  color: #8F8F8F;
+}
+
+.titulo{
+  font-family: 'Monserrat',;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu',;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  font-family: "Monserrat-light";
+}
+
+/* Download buttons */
+
+.download-btn{
+  margin: 0 5% 3% 0;
+}
+
+/* Icons */
+
+.iconA{
+  color: #EF8172;
+  display: inline-block;
+  font-size: 50px;
+  margin: 15px auto;
+
+}
+
+.iconA:hover{
+  color: #ff4c68;
+}
+
+/* images */
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+/* Title */
+
+
+
+/* Testimonials */
+#testimonials{
+  background: #ff4c68;
+
+  text-align: center;
+
+}
+
+.title-image{
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press */
+
+#press{
+  background: #ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing */
+
+.pricing-h2{
+  color: black;
+
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* CTA SECTION */
+
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.h2cta{
+  margin: 35px auto 40px;
+}
+
+/* FOOTER SECTION */
+
+#footer{
+  text-align: center;
+}
+
+.footIcons{
+  margin: 65px 5px 5px;
+  color: gray;
+
+}
+
+
+/* RESPONSIVE PHONE SIZE */
+
+@media (max-width:1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    transform: rotate(0);
+    position: static;
+  }
+}
